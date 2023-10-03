@@ -33,9 +33,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link text-light dropdown-toggle" href="#" id="navbarAccount" data-toggle="dropdown"> Browse </a>
           <div class="dropdown-menu" aria-labelledby="navbarAccount">
-            <router-link class="dropdown-item" :to="{ name: 'WishList' }">Home</router-link>
-            <router-link class="dropdown-item" :to="{ name: 'WishList' }">Product</router-link>
-            <router-link class="dropdown-item" :to="{ name: 'WishList' }">Category</router-link>
+            <router-link class="dropdown-item" :to="{ name: 'home' }">Home</router-link>
+            <router-link class="dropdown-item" :to="{ name: 'AdminProduct' }">Product</router-link>
+            <router-link class="dropdown-item" :to="{ name: 'Category' }">Category</router-link>
           </div>
         </li>
         <li class="nav-item dropdown">
